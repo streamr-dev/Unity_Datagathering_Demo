@@ -2,825 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a64ad38-df67-44ee-b2dd-29c8b778baa0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Configurations.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Configurations/DefaultSessionConfig.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Configurations/DefaultSessionConfig.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Materials/AREdgeDetectionBackground.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Materials/AREdgeDetectionBackground.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Materials/AREdgeDetectionBackgroundMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Materials/AREdgeDetectionBackgroundMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/libarcore_camera_utility.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/libarcore_camera_utility.so.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/src.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/src/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/src/README.md.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/src/arcore_camera_utility.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Plugins/src/arcore_camera_utility.zip.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scenes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scenes/ComputerVision.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scenes/ComputerVision.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/ComputerVisionController.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/ComputerVisionController.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/EdgeDetector.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/EdgeDetector.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/TextureReader.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/TextureReader.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/TextureReaderApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Examples/ComputerVision/Scripts/TextureReaderApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Prefabs/ARCore Device.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Prefabs/ARCore Device.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Prefabs/Environmental Light.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/Prefabs/Environmental Light.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_shared.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_shared.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/instant_preview_unity_plugin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/instant_preview_unity_plugin.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libinstant_preview_shared.dylib" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.bundle/Contents/MacOS/libinstant_preview_shared.dylib.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.dll" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/instant_preview_unity_plugin.dll.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewInput.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewInput.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewTrackedPoseDriver.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewTrackedPoseDriver.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Materials/ARBackground.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Materials/ARBackground.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Materials/ARBackground.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Materials/ARBackground.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/arcore_client.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/arcore_client.aar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/google_ar_optional.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/google_ar_optional.aar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/google_ar_required.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/google_ar_required.aar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/libarcore_unity_api.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/libarcore_unity_api.so.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/libarpresto_api.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/libarpresto_api.so.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/unityandroidpermissions.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/unityandroidpermissions.aar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/unitygar.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Plugins/unitygar.aar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreSession.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreSession.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreSessionConfig.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ARCoreSessionConfig.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Anchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Anchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AndroidPermissionsManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AndroidPermissionsManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/AnchorApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/AnchorApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiApkInstallStatusExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiApkInstallStatusExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiApkInstallationStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiApkInstallationStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiArStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiArStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiAvailability.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiAvailability.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiAvailabilityExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiAvailabilityExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiCameraMetadata.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiCameraMetadata.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiConstants.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiConstants.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoords.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoords.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateState.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateState.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateStateExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateStateExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimationMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiLightEstimationMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPlaneFindingMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPlaneFindingMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoConfig.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoConfig.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackableType.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackableType.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackableTypeExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackableTypeExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationModeExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationModeExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiUpdateMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/ApiUpdateMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/CameraApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/CameraApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/CameraMetadataApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/CameraMetadataApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/FrameApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/FrameApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/HitTestApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/HitTestApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/LightEstimateApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/LightEstimateApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/NativeSession.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PointApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PointApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PoseApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/PoseApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/SessionApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/SessionApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/SessionConfigApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/SessionConfigApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/TrackableApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/TrackableApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/TrackableListApi.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Api/TrackableListApi.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ApkAvailabilityStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ApkAvailabilityStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ApkInstallationStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/ApkInstallationStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Async.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Async/WaitForTaskCompletionYieldInstruction.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Async/WaitForTaskCompletionYieldInstruction.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AsyncTask.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/AsyncTask.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/CameraMetadataValue.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/CameraMetadataValue.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Editor/ARCoreRequiredMenuItem.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Editor/ARCoreRequiredMenuItem.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Frame.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Frame.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/LightEstimate.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/LightEstimate.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/LightEstimateState.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/LightEstimateState.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Managers.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Managers/LifecycleManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Managers/LifecycleManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Managers/TrackableManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Managers/TrackableManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/PointCloudPoint.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/PointCloudPoint.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Session.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Session.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/SessionStatus.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/SessionStatus.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/SessionStatusExtensions.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/SessionStatusExtensions.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Trackable.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Trackable.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableHit.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableHit.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableHitFlags.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableHitFlags.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableQueryFilter.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackableQueryFilter.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPoint.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPoint.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPointOrientationMode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackedPointOrientationMode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackingState.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/TrackingState.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ARCoreProjectSettings.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ARCoreProjectSettings.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ARDebug.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ARDebug.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/IntPtrEqualityComparer.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/IntPtrEqualityComparer.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/MarshalingHelper.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/GoogleARCore/SDK/Scripts/Utility/MarshalingHelper.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARPrerequisiteInfo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARPrerequisiteInfo.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ARTabletopMapVisualizer.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ARTabletopMapVisualizer.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingHeightModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingHeightModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingLayerModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingLayerModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingTextureModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingTextureModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingUvModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipBuildingUvModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapBuildings.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapBuildings.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapFlatTerrainFactory.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapFlatTerrainFactory.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapImageFactory.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapImageFactory.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapVectorFactory.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMapVectorFactory.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMergedBuildingStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipMergedBuildingStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipPolygonModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/ARTableMapVisualizer/ClipPolygonModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_BuildingsMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_BuildingsMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_BuildingsMaterial_top.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_BuildingsMaterial_top.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_MapboxStylesFacadesPerRenderer.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_MapboxStylesFacadesPerRenderer.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_MapboxStylesRoofsPerRenderer.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_MapboxStylesRoofsPerRenderer.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_TerrainMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Materials/Clip_TerrainMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARPlaneHandler.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARPlaneHandler.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARTableTileProvider.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARTableTileProvider.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARTableTopCameraMovement.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/ARTableTopCameraMovement.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/PlaceMapOnARPlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/PlaceMapOnARPlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/UpdateShaderCoordinatesByARPlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Scripts/UpdateShaderCoordinatesByARPlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/ClipBox.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/ClipBox/Clip_Box.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/ClipBox/Clip_Box.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/ClipBox/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/ClipBox/LICENSE.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/Clip_MapBoxStylesPerRenderer.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/Clip_MapBoxStylesPerRenderer.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/Clip_MapboxStyles.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Shaders/Clip_MapboxStyles.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/Green_Texture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/Green_Texture.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/orange_texture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/orange_texture.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/red_texture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/red_texture.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/yellow_texture.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/ARTabletop/Textures/yellow_texture.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/TabletopAR.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/TabletopAR.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/WorldScaleAR-ManualAlignment.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/WorldScaleAR-ManualAlignment.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/WorldScaleAR.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/Scenes/WorldScaleAR.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingHeightModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingHeightModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingLayerModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingLayerModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingTextureModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingTextureModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingUvModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleBuildingUvModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapBuildings.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapBuildings.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapFlatTerrain.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapFlatTerrain.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapImage.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapImage.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapVector.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapVector.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapVisualizer.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMapVisualizer.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMergedBuildingStack.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimpleMergedBuildingStack.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimplePolygonModifier.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Examples/SimpleMap/SimplePolygonModifier.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/DebugBuildings.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/DebugBuildings.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/Occlusion.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/Occlusion.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/PathMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/PathMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/UnlitTerrainMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Materials/UnlitTerrainMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/AR Root.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/AR Root.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/AR.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/AR.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/ARTabletopKit.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/ARTabletopKit.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/ArAlignedMap.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/ArAlignedMap.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/DebugCanvas.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/DebugCanvas.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/Directions.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/Directions.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/FocusSquare.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/FocusSquare.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/LocationProvider.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/LocationProvider.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/WorldAlignmentKit.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/WorldAlignmentKit.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/WorldAlignmentKitManual.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Prefabs/WorldAlignmentKitManual.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/Camera.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/Camera/ManualTouchCamera.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/Camera/ManualTouchCamera.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/Camera/TouchCamera.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/Camera/TouchCamera.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/FollowTargetTransform.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/FollowTargetTransform.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/RelocateMapByGPS.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/RelocateMapByGPS.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/RotateOnYTargetTransform.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/RotateOnYTargetTransform.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/UpdateMapPosByARPlaneY.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/ManualSync/UpdateMapPosByARPlaneY.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/PlayerSizeFromLocationAccuracy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Scripts/PlayerSizeFromLocationAccuracy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Textures.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Textures/location.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Textures/location.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Textures/log.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Textures/log.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/AbstractAlignmentStrategy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/AbstractAlignmentStrategy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/AverageHeadingAlignmentStrategy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/AverageHeadingAlignmentStrategy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Editor/Tests.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Editor/Tests/MapboxUnitTests_AverageHeadingAlignmentStrategy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Editor/Tests/MapboxUnitTests_AverageHeadingAlignmentStrategy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/ISynchronizationContext.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/ISynchronizationContext.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/LerpAlignmentStrategy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/LerpAlignmentStrategy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/ManualSynchronizationContextBehaviour.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/ManualSynchronizationContextBehaviour.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContext.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContext.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContextBehaviour.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContextBehaviour.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SnapAlignmentStrategy.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/SnapAlignmentStrategy.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Utilities.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/link.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/MapboxAR/link.xml.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/RemoteDevice.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/RemoteDevice.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteDevice.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteDevice.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteEditor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteEditor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteEditorInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARRemoteEditorInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARSerializableObjects.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/ARRemote/Scripts/ARSerializableObjects.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/ARFocusSquare.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/ARFocusSquare.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/ARFocusSquareScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/ARFocusSquareScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.controller" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.controller.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFinding.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFocused.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFocused.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFound.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/FocusSquareFound.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focuspulse.anim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focuspulse.anim.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focussquare.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focussquare.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focussquarefound.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/ARFocusSquare/focussquarefound.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/2000px-Checkerboard_pattern.svg.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/2000px-Checkerboard_pattern.svg.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/2000px-Checkerboard_patternUV.svg.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/2000px-Checkerboard_patternUV.svg.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/BallMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/BallMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/Plane Physic Material.physicMaterial" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/Plane Physic Material.physicMaterial.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PlayerMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PlayerMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PointCloudMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PointCloudMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PointCloudParticleMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/PointCloudParticleMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/XColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/XColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/YColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/YColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/ZColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/ZColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/debugPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/debugPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/occlusionPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/occlusionPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/shadowPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Materials/shadowPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters/Materials/GunMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters/Materials/GunMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters/Player.fbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Models/Characters/Player.fbx.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/BallPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/BallPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/ParticlePainterPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/ParticlePainterPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/ParticlePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/ParticlePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/PointCloudPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/PointCloudPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/collisionPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/collisionPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/debugPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/debugPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/occlusionPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/occlusionPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/shadowPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Prefabs/shadowPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/InstancedSurfaceShader.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/InstancedSurfaceShader.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/MobileARShadow.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/MobileARShadow.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/MobileOcclusion.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Shaders/MobileOcclusion.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerDiffuse.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerDiffuse.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerNormals.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerNormals.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerOcclusion.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerOcclusion.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerSpecular.tif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/PlayerSpecular.tif.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/checker_large UV.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/checker_large UV.gif.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/debugPlaneTile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Common/Textures/debugPlaneTile.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/DemoGUI.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/DemoGUI.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/MatchingScalePicker.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/MatchingScalePicker.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/ObjectShooter.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/ObjectShooter.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/OptionsGUI.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/OptionsGUI.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/PlaceOnPlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/PlaceOnPlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/RemoveRigidbody.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Examples/Scripts/RemoveRigidbody.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/Level geometry.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/Level geometry.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/PhysicsBall.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/PhysicsBall.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/PlacedObject.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Prefabs/PlacedObject.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/GuiSkin.guiskin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/GuiSkin.guiskin.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/Materials/ARBackground.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/Materials/ARBackground.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/YUVMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Resources/YUVMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARBase.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARBase.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARController.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARController.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARCoreInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARCoreInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/AREditorInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/AREditorInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARKitInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARKitInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARLightEstimate.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARLightEstimate.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARMessageIds.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARMessageIds.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARPlaneVisualizer.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARPlaneVisualizer.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARPointCloudVisualizer.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/ARPointCloudVisualizer.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/BoundedPlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARInterface/Scripts/BoundedPlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKITREMOTE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKITREMOTE.txt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ARKitRemoteConnection.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ConnectToEditor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ConnectToEditor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ConnectionMessageIds.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ConnectionMessageIds.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/EditorHitTest.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/EditorHitTest.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/EditorTestScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/EditorTestScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ObjectSerializationExtension.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/ObjectSerializationExtension.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/SerializableObjects.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/SerializableObjects.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/UnityARKitRemote.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/UnityRemoteVideo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/ARKitRemote/UnityRemoteVideo.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/AddRemoveAnchorScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/AddRemoveAnchorScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/RandomCube.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/RandomCube.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/UnityARUserAnchorExample.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/AddRemoveAnchorExample/UnityARUserAnchorExample.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/2000px-Checkerboard_pattern.svg.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/2000px-Checkerboard_pattern.svg.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/2000px-Checkerboard_patternUV.svg.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/2000px-Checkerboard_patternUV.svg.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/BallMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/BallMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/Plane Physic Material.physicMaterial" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/Plane Physic Material.physicMaterial.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PlayerMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PlayerMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PointCloudMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PointCloudMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PointCloudParticleMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/PointCloudParticleMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTBack.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTBack.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTBottom.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTBottom.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTFront.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTFront.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTLeft.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTLeft.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTRight.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTRight.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTTop.renderTexture" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/RTTop.renderTexture.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/SphereMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/SphereMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/XColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/XColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/YColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/YColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/ZColor.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/ZColor.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/debugPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/debugPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/occlusionPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/occlusionPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/shadowPlaneMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Materials/shadowPlaneMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters/Materials/GunMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters/Materials/GunMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters/Player.fbx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Models/Characters/Player.fbx.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/AxesPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/AxesPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/BallPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/BallPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/CollSphere.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/CollSphere.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/ParticlePainterPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/ParticlePainterPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/ParticlePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/ParticlePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/PointCloudPrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/PointCloudPrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/collisionPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/collisionPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/debugPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/debugPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/occlusionPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/occlusionPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/shadowPlanePrefab.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Prefabs/shadowPlanePrefab.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/InstancedSurfaceShader.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/InstancedSurfaceShader.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/MobileARShadow.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/MobileARShadow.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/MobileOcclusion.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Shaders/MobileOcclusion.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerDiffuse.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerDiffuse.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerNormals.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerNormals.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerOcclusion.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerOcclusion.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerSpecular.tif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/PlayerSpecular.tif.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/checker_large UV.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/checker_large UV.gif.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/debugPlaneTile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/Common/Textures/debugPlaneTile.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquare.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquare.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.controller" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.controller.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFinding.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFocused.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFocused.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFound.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareFound.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/FocusSquareScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focuspulse.anim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focuspulse.anim.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focussquare.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focussquare.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focussquarefound.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/FocusSquare/focussquarefound.png.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/UnityARKitScene.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Examples/UnityARKitScene/UnityARKitScene.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Editor.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Editor/UnityARBuildPostprocessor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Editor/UnityARBuildPostprocessor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/AR3DOFCameraManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/AR3DOFCameraManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/ARPlaneAnchorGameObject.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/ARPlaneAnchorGameObject.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/DontDestroyOnLoad.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/DontDestroyOnLoad.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/PointCloudParticleExample.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/PointCloudParticleExample.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARAmbient.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARAmbient.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARAnchorManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARAnchorManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARCameraManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARCameraManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARCameraNearFar.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARCameraNearFar.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARGeneratePlane.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARGeneratePlane.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARHitTestExample.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARHitTestExample.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARKitControl.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARKitControl.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARKitLightManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARKitLightManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARMatrixOps.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARMatrixOps.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARUserAnchorComponent.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARUserAnchorComponent.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARUtility.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARUtility.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARVideo.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARVideo.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityPointCloudExample.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityPointCloudExample.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Materials.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Materials/YUVMaterial.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Materials/YUVMaterial.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Materials/YUVMaterialLinear.mat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Materials/YUVMaterialLinear.mat.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARCamera.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARCamera.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARErrorCode.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARErrorCode.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARFaceAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARFaceAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARFrame.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARFrame.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARHitTestResult.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARHitTestResult.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARHitTestResultType.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARHitTestResultType.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARLightEstimate.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARLightEstimate.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPlaneAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPlaneAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPlaneAnchorAlignment.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPlaneAnchorAlignment.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPoint.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARPoint.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARRect.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARRect.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARSessionNative.mm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARSessionNative.mm.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARSize.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARSize.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTextureHandles.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTextureHandles.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingQuality.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingQuality.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingState.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingState.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingStateReason.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARTrackingStateReason.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARUserAnchor.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/ARUserAnchor.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/UnityARSessionNativeInterface.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/NativeInterface/UnityARSessionNativeInterface.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Shaders.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Shaders/YUVShader.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Shaders/YUVShader.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Shaders/YUVShaderLinear.shader" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Plugins/iOS/UnityARKit/Shaders/YUVShaderLinear.shader.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Resources.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Resources/UnityARKitPlugin.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Resources/UnityARKitPlugin/ARKitSettings.asset" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/Resources/UnityARKitPlugin/ARKitSettings.asset.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/UnityARKitPluginSettings.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox SDK/UnityARKitPlugin/UnityARKitPluginSettings.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -834,13 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="test_android_build.apk" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Builds/test_android_build.apk">
+          <provider selected="true" editor-type-id="apk-viewer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -875,10 +55,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -895,6 +75,9 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1014,6 +197,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="757" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1029,7 +213,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496318" sideWeight="0.4939577" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889544" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889544" sideWeight="0.4939577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24889544" sideWeight="0.4939577" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1052,6 +236,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Builds/test_android_build.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1062,11 +251,115 @@
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builds/test_android_build.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Unity_Datagathering_Demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

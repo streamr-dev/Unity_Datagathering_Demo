@@ -285,6 +285,8 @@
 
 			double lat = location.Call<double>("getLatitude");
 			double lng = location.Call<double>("getLongitude");
+
+
 			Utils.Vector2d newLatLng = new Utils.Vector2d(lat, lng);
 			bool coordinatesUpdated = !newLatLng.Equals(_currentLocation.LatitudeLongitude);
 			_currentLocation.LatitudeLongitude = newLatLng;

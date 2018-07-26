@@ -1,16 +1,20 @@
 namespace Mapbox.Unity.Location
 {
-	using System;
-	using Mapbox.Unity.Utilities;
-	using Mapbox.Utils;
-	using UnityEngine;
-	using Mapbox.Unity.Map;
+    using System;
+    using Mapbox.Unity.Utilities;
+    using Mapbox.Utils;
+    using UnityEngine;
+    using Mapbox.Unity.Map;
+    using UnityEngine.Networking;
+    using System.Collections;
+    using System.Collections.Generic;
+    using SimpleHTTP;
 
-	/// <summary>
-	/// The EditorLocationProvider is responsible for providing mock location and heading data
-	/// for testing purposes in the Unity editor.
-	/// </summary>
-	public class EditorLocationProvider : AbstractEditorLocationProvider
+    /// <summary>
+    /// The EditorLocationProvider is responsible for providing mock location and heading data
+    /// for testing purposes in the Unity editor.
+    /// </summary>
+    public class EditorLocationProvider : AbstractEditorLocationProvider
 	{
 		/// <summary>
 		/// The mock "latitude, longitude" location, respresented with a string.
@@ -32,6 +36,8 @@ namespace Mapbox.Unity.Location
 		AbstractMap _map;
 
 		bool _mapInitialized;
+
+        IEnumerator coroutine;
 
 #if UNITY_EDITOR
 		protected virtual void Start()
@@ -85,6 +91,34 @@ namespace Mapbox.Unity.Location
 			_currentLocation.IsLocationUpdated = true;
 			_currentLocation.IsUserHeadingUpdated = true;
 			_currentLocation.IsLocationServiceEnabled = true;
+            coroutine = Post(_currentLocation.LatitudeLongitude);
+            StartCoroutine(coroutine);
 		}
+
+        IEnumerator Post(Vector2d latlong)
+        {
+            // Let's say that this the object you want to create
+            Post post = new Post("Test", latlong.ToString(), 1);
+            // Create the request object and use the helper function `RequestBody` to create a body from JSON
+            Request request = new Request("https://www.streamr.com/api/v1/streams/fcerTRt_TYG5NgTMPVuGMQ/data")
+                .AddHeader("Authorization", "token _pTG8EVHTjOZwbVCWprixg89zWAaEYSqS7WRsmO8f8rA")
+                .Post(RequestBody.From<Post>(post));
+            //Debug.Log(request.Body() == null);
+            //Debug.Log(BitConverter.ToString(RequestBody.From<Post>(post).Body()).Replace("-", string.Empty).ToLower());
+            // Instantiate the client
+            Client http = new Client();
+            // Send the request
+            yield return http.Send(request);
+            // Use the response if the request was successful, otherwise print an error
+            if (http.IsSuccessful())
+            {
+                Response resp = http.Response();
+                Debug.Log("status: " + resp.Status().ToString() + "\nbody: " + resp.Body());
+            }
+            else
+            {
+                Debug.Log("error: " + http.Error());
+            }
+        }
 	}
 }
