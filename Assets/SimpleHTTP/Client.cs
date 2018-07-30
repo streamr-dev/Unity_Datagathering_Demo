@@ -36,9 +36,9 @@ namespace SimpleHTTP {
 
 				www.downloadHandler = new DownloadHandlerBuffer ();
 
-				yield return www.Send ();
+				yield return www.SendWebRequest();
 
-				if (www.isError) {
+				if (www.isNetworkError) {
 					error = www.error;
 				} else {
 					response = SimpleHTTP.Response.From (www);

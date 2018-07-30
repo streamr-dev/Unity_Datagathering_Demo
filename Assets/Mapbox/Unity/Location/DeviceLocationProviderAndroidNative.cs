@@ -7,6 +7,7 @@
 	using System.IO;
 	using System.Text;
 	using Mapbox.Utils;
+    using SimpleHTTP;
 
 	public class DeviceLocationProviderAndroidNative : AbstractLocationProvider, IDisposable
 	{
@@ -42,7 +43,6 @@
 		private AndroidJavaObject _activityContext = null;
 		private AndroidJavaObject _gpsInstance;
 		private AndroidJavaObject _sensorInstance;
-
 
 		~DeviceLocationProviderAndroidNative() { Dispose(false); }
 		public void Dispose()
@@ -273,6 +273,30 @@
 			}
 		}
 
+        private IEnumerator Post(double lat, double lng, float? speed)
+        {
+            // Post with location data.
+            Post post = new Post(SystemInfo.deviceUniqueIdentifier, lat, lng, speed);
+            // Create the request object and use the helper function `RequestBody` to create a body from JSON
+            Request request = new Request("https://www.streamr.com/api/v1/streams/fcerTRt_TYG5NgTMPVuGMQ/data")
+                .AddHeader("Authorization", "token _pTG8EVHTjOZwbVCWprixg89zWAaEYSqS7WRsmO8f8rA")
+                .Post(RequestBody.From<Post>(post));
+            // Instantiate the client
+            Client http = new Client();
+            // Send the request
+            yield return http.Send(request);
+            // Use the response if the request was successful, otherwise print an error
+            if (http.IsSuccessful())
+            {
+                Response resp = http.Response();
+                Debug.Log("status: " + resp.Status().ToString() + "\nbody: " + resp.Body());
+            }
+            else
+            {
+                Debug.Log("error: " + http.Error());
+            }
+        }
+
 
 		private void populateCurrentLocation(AndroidJavaObject location)
 		{
@@ -285,7 +309,6 @@
 
 			double lat = location.Call<double>("getLatitude");
 			double lng = location.Call<double>("getLongitude");
-
 
 			Utils.Vector2d newLatLng = new Utils.Vector2d(lat, lng);
 			bool coordinatesUpdated = !newLatLng.Equals(_currentLocation.LatitudeLongitude);
@@ -326,6 +349,9 @@
 			float? newSpeed = location.Call<float>("getSpeed");
 			bool speedUpdated = newSpeed != _currentLocation.SpeedMetersPerSecond;
 			_currentLocation.SpeedMetersPerSecond = newSpeed;
+
+            IEnumerator coroutine = Post(lat, lng, newSpeed);
+            StartCoroutine(coroutine);
 
 			// flag location as updated if any of below conditions evaluates to true
 			// Debug.LogFormat("coords:{0} acc:{1} time:{2} speed:{3}", coordinatesUpdated, accuracyUpdated, timestampUpdated, speedUpdated);
