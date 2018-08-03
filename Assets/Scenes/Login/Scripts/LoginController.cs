@@ -16,7 +16,6 @@ public class LoginController : MonoBehaviour {
 
     bool displayMessage = false;
 
-
 	// Use this for initialization
 	void Start () {
         if (PlayerPrefs.GetString("username") != "") {

@@ -275,11 +275,14 @@
 
         private IEnumerator Post(double lat, double lng, float? speed)
         {
+            string username = PlayerPrefs.GetString("username");
+            string streamId = PlayerPrefs.GetString("streamId");
+            string apiKey = PlayerPrefs.GetString("apiKey");
             // Post with location data.
-            Post post = new Post(SystemInfo.deviceUniqueIdentifier, lat, lng, speed);
+            Post post = new Post(username, SystemInfo.deviceUniqueIdentifier, lat, lng, speed);
             // Create the request object and use the helper function `RequestBody` to create a body from JSON
-            Request request = new Request("https://www.streamr.com/api/v1/streams/fcerTRt_TYG5NgTMPVuGMQ/data")
-                .AddHeader("Authorization", "token _pTG8EVHTjOZwbVCWprixg89zWAaEYSqS7WRsmO8f8rA")
+            Request request = new Request("https://www.streamr.com/api/v1/streams/" + streamId + "/data")
+                .AddHeader("Authorization", "token " + apiKey)
                 .Post(RequestBody.From<Post>(post));
             // Instantiate the client
             Client http = new Client();
