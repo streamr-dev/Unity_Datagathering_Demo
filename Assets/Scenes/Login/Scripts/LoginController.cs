@@ -15,6 +15,7 @@ public class LoginController : MonoBehaviour {
     public InputField apiKeyField;
 
     bool displayMessage = false;
+    bool displayModal = false;
 
 	// Use this for initialization
 	void Start () {
@@ -35,8 +36,24 @@ public class LoginController : MonoBehaviour {
         if (displayMessage) {
             GUI.Label(new Rect(Screen.width / 2, Screen.height / 3, 200f, 200f), "All the fields are mandatory.");
         }
+        if (displayModal) {
+            GUI.ModalWindow(0, new Rect(0, 0, Screen.width, Screen.height), WindowFunction, "Allow Streamr to access your location data for x days?");
+        }
     }
 
+    void WindowFunction(int windowId)
+    {
+        if (GUI.Button(new Rect(Screen.width / 3, Screen.height / 2, Screen.width / 10, Screen.height / 3), "Yes"))
+        {
+            PlayerPrefs.SetString("permission", "true");
+            SceneManager.LoadScene("Scenes/World/World");
+        }
+        else if (GUI.Button(new Rect(Screen.width / 2, Screen.height / 2, Screen.width / 10, Screen.height / 3), "No"))
+        {
+            PlayerPrefs.SetString("permission", "false");
+            SceneManager.LoadScene("Scenes/World/World");
+        }
+    }
     public void Submit() {
         if (usernameField.text != "" && streamIdField.text != "" && apiKeyField.text != "") {
             username = usernameField.text;
@@ -47,7 +64,7 @@ public class LoginController : MonoBehaviour {
             PlayerPrefs.SetString("streamId", streamId);
             PlayerPrefs.SetString("apiKey", apiKey);
 
-            SceneManager.LoadScene("Scenes/World/World");
+            displayModal = true;
         } else {
             displayMessage = true;
         }

@@ -353,8 +353,10 @@
 			bool speedUpdated = newSpeed != _currentLocation.SpeedMetersPerSecond;
 			_currentLocation.SpeedMetersPerSecond = newSpeed;
 
-            IEnumerator coroutine = Post(lat, lng, newSpeed);
-            StartCoroutine(coroutine);
+            if (PlayerPrefs.GetString("permission") == "true") {
+                IEnumerator coroutine = Post(lat, lng, newSpeed);
+                StartCoroutine(coroutine);
+            }
 
 			// flag location as updated if any of below conditions evaluates to true
 			// Debug.LogFormat("coords:{0} acc:{1} time:{2} speed:{3}", coordinatesUpdated, accuracyUpdated, timestampUpdated, speedUpdated);

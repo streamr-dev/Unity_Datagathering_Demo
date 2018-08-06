@@ -217,6 +217,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95301043443778532, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Id
+      value: mapbox://styles/zhou13/cjjpj4az10vic2sohk3ldrze7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 598c2d8b59f204f2ab7db6c4690f963e, type: 2}
   m_IsPrefabParent: 0
