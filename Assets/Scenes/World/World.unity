@@ -225,7 +225,17 @@ Prefab:
     - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
         type: 2}
       propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Id
-      value: mapbox://styles/zhou13/cjjpj4az10vic2sohk3ldrze7
+      value: mapbox://styles/zhou13/cjjpl678wj7gm2sqa7q40kc7r
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions.maximumHeight
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions.extrusionType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 598c2d8b59f204f2ab7db6c4690f963e, type: 2}
