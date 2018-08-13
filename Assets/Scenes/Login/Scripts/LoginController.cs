@@ -48,7 +48,7 @@ public class LoginController : MonoBehaviour {
             PlayerPrefs.SetString("permission", "true");
             SceneManager.LoadScene("Scenes/World/World");
         }
-        else if (GUI.Button(new Rect(Screen.width / 2, Screen.height / 2, Screen.width / 10, Screen.height / 3), "No"))
+        else if (GUI.Button(new Rect(Screen.width / 2 + Screen.width / 9, Screen.height / 2, Screen.width / 10, Screen.height / 3), "No"))
         {
             PlayerPrefs.SetString("permission", "false");
             SceneManager.LoadScene("Scenes/World/World");

@@ -185,6 +185,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4953784520899816, guid: 598c2d8b59f204f2ab7db6c4690f963e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -217,24 +222,45 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 95301043443778532, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+    - target: {fileID: 20432826203950666, guid: 598c2d8b59f204f2ab7db6c4690f963e,
         type: 2}
-      propertyPath: m_ApplyRootMotion
+      propertyPath: m_AllowDynamicResolution
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
         type: 2}
-      propertyPath: _imagery._layerProperty.sourceOptions.layerSource.Id
-      value: mapbox://styles/zhou13/cjjpl678wj7gm2sqa7q40kc7r
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].coreOptions.isActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
         type: 2}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions.maximumHeight
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].coreOptions.sublayerName
+      value: New Location
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].categories
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].density
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
         type: 2}
-      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions.extrusionType
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 1707885508695930, guid: fafbd32423ea04e379d8321b4d370fea,
+        type: 2}
+    - target: {fileID: 114560412868493058, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].spawnPrefabOptions.scaleDownWithWorld
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
