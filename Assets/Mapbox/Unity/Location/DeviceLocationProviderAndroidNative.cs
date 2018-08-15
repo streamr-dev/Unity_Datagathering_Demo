@@ -2,6 +2,7 @@
 {
 	using UnityEngine;
 	using System.Collections;
+    using System.Collections.Generic;
 	using System.Globalization;
 	using System;
 	using System.IO;
@@ -278,8 +279,12 @@
             string username = PlayerPrefs.GetString("username");
             string streamId = PlayerPrefs.GetString("streamId");
             string apiKey = PlayerPrefs.GetString("apiKey");
+
+            POIProximity pro = new POIProximity();
+            List<string> nearbyPOIS = pro.getNearbyPOIS();
+
             // Post with location data.
-            Post post = new Post(username, SystemInfo.deviceUniqueIdentifier, lat, lng, speed);
+            Post post = new Post(username, SystemInfo.deviceUniqueIdentifier, lat, lng, speed, nearbyPOIS);
             // Create the request object and use the helper function `RequestBody` to create a body from JSON
             Request request = new Request("https://www.streamr.com/api/v1/streams/" + streamId + "/data")
                 .AddHeader("Authorization", "token " + apiKey)
