@@ -21,7 +21,7 @@ public class POIProximity : MonoBehaviour {
         foreach (Transform child in allChildren)
         {
             if (child.ToString().Contains("Food")) {
-                if ((child.transform.position - player.transform.position).magnitude < 30.0) {
+                if ((child.transform.position - player.transform.position).magnitude < 50.0) {
                     nearbyPOIS.Add(child.GetChild(0).GetChild(0).GetChild(0).GetComponent<Text>().text);
                 }
             }
