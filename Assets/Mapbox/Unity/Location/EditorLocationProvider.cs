@@ -39,6 +39,8 @@ namespace Mapbox.Unity.Location
 
         IEnumerator coroutine;
 
+        [SerializeField] POIProximity proximity;
+
 #if UNITY_EDITOR
 		protected virtual void Start()
 		{
@@ -91,34 +93,39 @@ namespace Mapbox.Unity.Location
 			_currentLocation.IsLocationUpdated = true;
 			_currentLocation.IsUserHeadingUpdated = true;
 			_currentLocation.IsLocationServiceEnabled = true;
-            //coroutine = Post(_currentLocation.LatitudeLongitude);
-            //StartCoroutine(coroutine);
+            coroutine = Post(5,5,1);
+            StartCoroutine(coroutine);
 		}
 
-        //IEnumerator Post(double lat, double lng, float? speed)
-        //{
-        //    // Let's say that this the object you want to create
-        //    Post post = new Post("Test", latlong.ToString(), 1);
-        //    // Create the request object and use the helper function `RequestBody` to create a body from JSON
-        //    Request request = new Request("https://www.streamr.com/api/v1/streams/fcerTRt_TYG5NgTMPVuGMQ/data")
-        //        .AddHeader("Authorization", "token _pTG8EVHTjOZwbVCWprixg89zWAaEYSqS7WRsmO8f8rA")
-        //        .Post(RequestBody.From<Post>(post));
-        //    //Debug.Log(request.Body() == null);
-        //    //Debug.Log(BitConverter.ToString(RequestBody.From<Post>(post).Body()).Replace("-", string.Empty).ToLower());
-        //    // Instantiate the client
-        //    Client http = new Client();
-        //    // Send the request
-        //    yield return http.Send(request);
-        //    // Use the response if the request was successful, otherwise print an error
-        //    if (http.IsSuccessful())
-        //    {
-        //        Response resp = http.Response();
-        //        Debug.Log("status: " + resp.Status().ToString() + "\nbody: " + resp.Body());
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("error: " + http.Error());
-        //    }
-        //}
+        private IEnumerator Post(double lat, double lng, float? speed)
+        {
+            string username = PlayerPrefs.GetString("username");
+            string streamId = PlayerPrefs.GetString("streamId");
+            string apiKey = PlayerPrefs.GetString("apiKey");
+
+            List<string> nearbyPOIS = proximity.getNearbyPOIS();
+
+            // Post with location data.
+            Post post = new Post(username, SystemInfo.deviceUniqueIdentifier, lat, lng, speed, nearbyPOIS);
+            // Create the request object and use the helper function `RequestBody` to create a body from JSON
+            Request request = new Request("https://www.streamr.com/api/v1/streams/" + streamId + "/data")
+                .AddHeader("Authorization", "token " + apiKey)
+                .Post(RequestBody.From<Post>(post));
+            // Instantiate the client
+            Client http = new Client();
+            // Send the request
+            yield return http.Send(request);
+            // Use the response if the request was successful, otherwise print an error
+            if (http.IsSuccessful())
+            {
+                Response resp = http.Response();
+                Debug.Log("status: " + resp.Status().ToString() + "\nbody: " + resp.Body());
+            }
+            else
+            {
+                Debug.Log("error: " + http.Error());
+            }
+        }
+
 	}
 }
