@@ -31,6 +31,8 @@
 		[Tooltip("The minimum time interval between location updates, in milliseconds. It's reasonable to not go below 500ms.")]
 		long _updateTimeInMilliSeconds = 1000;
 
+        [SerializeField] POIProximity proximity;
+
 
 		private WaitForSeconds _wait1sec;
 		private WaitForSeconds _wait5sec;
@@ -280,8 +282,7 @@
             string streamId = PlayerPrefs.GetString("streamId");
             string apiKey = PlayerPrefs.GetString("apiKey");
 
-            POIProximity pro = new POIProximity();
-            List<string> nearbyPOIS = pro.getNearbyPOIS();
+            List<string> nearbyPOIS = proximity.getNearbyPOIS();
 
             // Post with location data.
             Post post = new Post(username, SystemInfo.deviceUniqueIdentifier, lat, lng, speed, nearbyPOIS);

@@ -23,7 +23,7 @@ public class POIProximity : MonoBehaviour {
         {
             if (child.ToString().Contains("Food"))
             {
-                if ((child.transform.position - player.transform.position).magnitude < 50.0)
+                if ((child.transform.position - player.transform.position).magnitude < 100.0)
                 {
                     temp.Add(child.GetChild(0).GetChild(0).GetChild(0).GetComponent<Text>().text);
                 }

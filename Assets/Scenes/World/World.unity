@@ -227,6 +227,11 @@ Prefab:
       propertyPath: proximity
       value: 
       objectReference: {fileID: 2046830678}
+    - target: {fileID: 114943813099969944, guid: 598c2d8b59f204f2ab7db6c4690f963e,
+        type: 2}
+      propertyPath: proximity
+      value: 
+      objectReference: {fileID: 2046830678}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 598c2d8b59f204f2ab7db6c4690f963e, type: 2}
   m_IsPrefabParent: 0
